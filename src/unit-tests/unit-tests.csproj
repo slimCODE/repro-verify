@@ -31,13 +31,4 @@
     <Using Include="Xunit" />
   </ItemGroup>
 
-  <ItemGroup>
-    <None Update="UnitTest1.Test1_WhenThis_ExpectsThat.verified.txt">
-      <DependentUpon>UnitTest1.One.cs</DependentUpon>
-    </None>
-    <None Update="UnitTest1.Test2_WhenThat_ExpectsThis.verified.txt">
-      <DependentUpon>UnitTest1.Two.cs</DependentUpon>
-    </None>
-  </ItemGroup>
-
 </Project>
